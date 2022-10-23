@@ -1,0 +1,142 @@
+*{
+    padding: 0;
+    margin:0;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(9, 244, 166);
+    color:white
+}
+nav ,h1{
+    font-size:30px;
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+}
+ul li{
+    text-decoration: none;
+    list-style: none;
+    margin-left: 10px;
+    font-size: 30px;
+    color:brown;
+    font-weight: bold;
+}
+ul:active{
+    color:white;
+
+}
+.B{
+   padding:8px 20px 8px;
+   font-size: 17px;
+   background-color: white;
+   color: black;
+   border: none;
+   font-weight: bolder;
+   border-radius: 5px;
+}
+.item{
+    height: 80px;
+    width: 80px;
+    background-color: antiquewhite;
+    border: 5px groove black;
+    margin-top: 2px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    
+
+    
+}
+.item1{
+    height: 80px;
+    width: 80px;
+    background-color:orange;
+    border: 5px groove black;
+    margin-top: 2px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    
+    
+}
+#container3{
+    
+    
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    grid-template-rows: 350px;
+    gap: 2%;
+    
+    background-color:rgb(246, 244, 244)
+    
+}
+#left{
+    border: 2px solid red;
+    margin-left: 5%;
+    margin-top: 5%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+    
+    
+    
+}
+#middle{
+    border: 2px solid red;
+    margin-top: 5%;
+    
+}
+#right {
+    border: 2px solid red;
+    margin-top: 5%;
+    
+}
+#container4{
+
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    height:400px;
+    width:30%;
+    border: 2px solid red;
+    margin-top: 4%;
+    margin-left: 32%;
+    overflow-y: scroll;
+    
+  
+}
+hr{
+    background-color: red;
+    height: 2px;
+    border: none;
+ }
+.item2{
+    height: 100px;
+    width: 100px;
+    background-color: antiquewhite;
+    border: 5px groove black;
+    margin-top: 2px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+#container6 {
+    justify-content: center;
+    align-items: center;
+display: grid;
+grid-template-columns:100px 100px 100px 100px 100px 100px 100px 100px 100px ;
+gap:50px;
+}
